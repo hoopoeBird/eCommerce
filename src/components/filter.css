@@ -1,0 +1,13 @@
+.filter {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.filter button {
+  border: 1px solid #0878b9;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 10px;
+  background-color: #036197;
+}

@@ -1,0 +1,45 @@
+.cart .info {
+  margin: 0 10px;
+}
+.cart h1 {
+  color: #9e9b6c;
+}
+.cart .tnav {
+  display: flex;
+  justify-content: space-between;
+}
+.cart button {
+  border: 0px;
+  background-color: #5e98db;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+.cart table {
+  width: 100%;
+}
+.cart table thead {
+  background-color: grey;
+}
+.cart table thead tr td {
+  font-size: 19px;
+  color: #eee;
+  padding: 10px 5px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.cart table tbody {
+  text-align: center;
+}
+.cart table tbody img {
+  height: 70px;
+}
+.cart table tbody .din span {
+  color: #d84c4c;
+  font-size: 20px;
+  cursor: pointer;
+  user-select: none;
+}
+.cart table td button {
+  background-color: #d84c4c;
+}

@@ -1,0 +1,27 @@
+.product-link {
+  all: unset !important;
+  cursor: pointer !important;
+}
+.product {
+  width: 200px;
+  margin: 20px;
+}
+.product img {
+  width: 200px;
+  height: 250px;
+  user-select: none;
+}
+.product h3 {
+  height: 100px;
+}
+.product div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.product div button {
+  outline: none;
+  border: 0px;
+  border-radius: 5px;
+  padding: 3px 10px;
+}

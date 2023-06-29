@@ -1,0 +1,46 @@
+.details {
+  display: flex;
+  justify-content: space-between;
+}
+.image img{
+  width: 50vw;
+  padding: 5px;
+}
+.descriptions {
+  padding: 5px;
+}
+.descriptions h2 {
+  color: #bdb76b;
+}
+.price-rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.price-rating .rating {
+  display: flex;
+  margin-right: 20px;
+}
+.price-rating .rating .stars .last-star {
+  position: relative;
+}
+.price-rating .rating .stars .last-star::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  height: 100%;
+  width: inherit;
+  display: flex;
+}
+.price-rating .rating > span {
+  margin-left: 8px;
+}
+.descriptions button {
+  border: 0px;
+  background-color: #eee;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
